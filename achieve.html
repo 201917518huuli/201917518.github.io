@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <style>
+    header{
+        margin:0 auto;
+        width:800px;
+        height:218px;
+
+    }
+    header .nav{
+        width:800px;
+        background-color:#32ccfe;
+        padding:0 1px 0 1px;
+    }
+    header .nav li{
+        width:150px;
+        float:left;
+    }
+    header .nav a{
+        display:block;
+        height:42px;
+        font-size:21px;
+        text-align:center;
+        line-height:42px;
+    }
+    header .nav a:hover{
+        background-color:#6189bc;
+        color:pink;
+    }
+    article{
+        width:800px;
+        height:720px;
+        margin:0 auto;
+        background-color:#e9fbff;
+        padding-bottom:  66px;
+    }
+    article .left{
+        width:200px;
+        height:648px;
+        background-color:#d3e7ff;
+        float:left;
+    }
+    article .right{
+        width:600px;
+        height:720px;
+        float:right;
+        position:relative;
+    }
+    article .right img{
+        position:absolute;
+        right:0;
+        bottom:87px;
+    }
+    article .left img{
+        display:block;
+        padding:27px 0 0 40px;
+    }
+    article .left .all{
+        font-size:18px;
+    }
+    article .left .p1{
+        text-align:center;
+        margin-top:10px;
+    }
+    article .left .p2{
+        margin:15px 27px 0 13px;
+        line-height:24px;
+    }
+    article .left .p2+img{
+        display:block;
+        padding:0 36px 0 40px;
+    }
+    .right .content{
+        margin-top:23px;
+        width:530px;
+        float:right;
+    }
+    .right .content a{
+        font-size:17px;
+        color:#0078aa;
+        text-decoration:underline;
+    }
+    .right .content .p3{
+        display:block;
+        font-size:17px;
+        padding:14px 0 27px 0;
+        line-height: 23px;
+       
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/d.png" alt="">
+        <ul class="nav clearfix">
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./achieve.html">荣誉</a></li>
+            <li><a href="#">专业技能</a></li>
+            <li><a href="#">爱好</a></li>
+            <li><a href="#">图片</a></li>
+
+        </ul>
+    </header>
+    <article>
+        <div class="left">
+            <img style="width: 160px;" src="img/head.jpg" alt="">
+            <p class="all">
+            <p style="font-size: 18px; font-weight:400;" class="p1">沙暴沧浪的个人主页</p>
+            <p class="p2">这是一个无比沙雕，狂放不羁的男子。</p>
+        </p>
+        </div>
+        <div class="right">
+            <img style="width:600px;" src="img/hh.jpg" alt="">
+            <div class="content">
+                <h1>比赛经历及获得奖次</h1>
+                <br>
+                <p class="p3">
+                    1.参加河南省大学生安全知识竞赛，获得优秀奖<br>
+                    <br>
+                    2.参加学校组织校级比赛“磐石杯”，获得三等奖<br>
+                    <br>
+                    3.参加ACM大赛海选，成功通过。但因为以前ACM大赛正赛无法举办。
+                </p>
+                <h1>其他荣誉</h1>
+                <br>
+                <p class="p3">
+                    1.参加河南省光山县防疫志愿者工作，获得光荣志愿者称号及奖状。<br>
+                    <br>
+                    2.参加防汛志愿者工作<br>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </article>
+</body>
+</html>

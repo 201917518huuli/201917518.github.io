@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <style>
+    header{
+        margin:0 auto;
+        width:800px;
+        height:218px;
+
+    }
+    header .nav{
+        width:800px;
+        background-color:#32ccfe;
+        padding:0 1px 0 1px;
+    }
+    header .nav li{
+        width:150px;
+        float:left;
+    }
+    header .nav a{
+        display:block;
+        height:42px;
+        font-size:21px;
+        text-align:center;
+        line-height:42px;
+    }
+    header .nav a:hover{
+        background-color:#6189bc;
+        color:pink;
+    }
+    article{
+        width:800px;
+        height:720px;
+        margin:0 auto;
+        background-color:#e9fbff;
+        padding-bottom:  66px;
+    }
+    article .left{
+        width:200px;
+        height:648px;
+        background-color:#d3e7ff;
+        float:left;
+    }
+    article .right{
+        width:600px;
+        height:720px;
+        float:right;
+        position:relative;
+    }
+    article .right img{
+        position:absolute;
+        right:0;
+        bottom:87px;
+    }
+    article .left img{
+        display:block;
+        padding:27px 0 0 40px;
+    }
+    article .left .all{
+        font-size:18px;
+    }
+    article .left .p1{
+        text-align:center;
+        margin-top:10px;
+    }
+    article .left .p2{
+        margin:15px 27px 0 13px;
+        line-height:24px;
+    }
+    article .left .p2+img{
+        display:block;
+        padding:0 36px 0 40px;
+    }
+    .right .content{
+        margin-top:23px;
+        width:530px;
+        float:right;
+    }
+    .right .content a{
+        font-size:17px;
+        color:#0078aa;
+        text-decoration:underline;
+    }
+    .right .content .p3{
+        display:block;
+        font-size:17px;
+        padding:14px 0 27px 0;
+        line-height: 23px;
+       
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/d.png" alt="">
+        <ul class="nav clearfix">
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./achieve.html">荣誉</a></li>
+            <li><a href="#">专业技能</a></li>
+            <li><a href="#">爱好</a></li>
+            <li><a href="#">图片</a></li>
+
+        </ul>
+    </header>
+    <article>
+        <div class="left">
+            <img style="width: 160px;" src="img/head.jpg" alt="">
+            <p class="all">
+            <p style="font-size: 18px; font-weight:400;" class="p1">沙暴沧浪的个人主页</p>
+            <p class="p2">这是一个无比沙雕，狂放不羁的男子。</p>
+        </p>
+        </div>
+        <div class="right">
+            <img style="width:600px;" src="img/bg.jpg" alt="">
+            <div class="content">
+                <h1>基本介绍</h1>
+                <p class="p3">学号：201917518；性别：男；<br>
+                    毕业院校：华北水利水电大学，信息工程学院;<br>
+                    所学专业：软件工程专业</p>
+                <h1>擅长语言</h1>
+                <p class="p3">学习了C语言，Java语言，Python语言。可以很好地使用Html5+CSS+JS设计页面</p>
+                <h1>外语</h1>
+                <p class="p3">英语水平通过CET-4，口语还行。<br>
+                </p>
+                
+
+            </div>
+        </div>
+    </article>
+</body>
+</html>
